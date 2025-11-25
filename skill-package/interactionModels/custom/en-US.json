@@ -20,6 +20,21 @@
                     "samples": []
                 },
                 {
+                    "name": "ChatIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "ask chat gpt {question}",
+                        "ask {question}",
+                        "tell me about {question}",
+                        "{question}"
+                    ]
+                },
+                {
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
