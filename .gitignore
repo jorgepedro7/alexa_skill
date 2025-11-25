@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Alexa ASK CLI
+.ask/
+ask-resources.json
+
+# OS
+.DS_Store
+Thumbs.db
